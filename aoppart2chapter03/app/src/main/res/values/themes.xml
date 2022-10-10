@@ -14,5 +14,5 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name= "Theme.Aoppart2chapter03"
+    <style name= "Theme.Aoppart2chapter03.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
 </resources>
