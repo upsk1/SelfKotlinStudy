@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
             expressionTextView.append(" ")
         }
         isOperator = false
-
         val expressionText = expressionTextView.text.split(" ")
         if (expressionText.isNotEmpty() && expressionText.last().length >= 15) {
             Toast.makeText(this, "15자리 까지만 사용할 수 있습니다.", Toast.LENGTH_SHORT).show()
@@ -145,7 +144,7 @@ class MainActivity : AppCompatActivity() {
         isOperator = false
         hasOperator = false
     }
-
+ 
     fun historyButtonClicked(v: View) {
 
     }
