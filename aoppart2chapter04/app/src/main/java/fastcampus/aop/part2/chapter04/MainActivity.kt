@@ -12,4 +12,15 @@ class MainActivity : AppCompatActivity() {
     fun buttonClicked(v: View){
 
     }
+    fun resultButtonClicked(v: View){
+
+    }
+    fun historyButtonClicked(v: View){
+
+    }
+    fun clearButtonClicked(v: View){
+
+    }
+
+
 }
